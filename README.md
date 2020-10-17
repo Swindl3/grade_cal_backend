@@ -1,2 +1,2 @@
 # grade_cal_backend
- grade calculator
+npm install & npm start
