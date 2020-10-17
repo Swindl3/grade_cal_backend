@@ -2,7 +2,6 @@ const app = require("express")(),
   server = require("http").Server(app);
 const bodyParser = require("body-parser");
 const ip = require("ip");
-const data = require("../../Application/geneus-takehom-test/backend/geneusdna_query");
 
 const port = process.env.PORT || 8888;
 app.use(bodyParser.json({ limit: "5mb" }));
